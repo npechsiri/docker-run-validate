@@ -1,0 +1,26 @@
+{
+  "name": "standalone-cypress",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testing-validate-record": "npx cypress run --record --key 9743f662-48e6-4242-b52d-4bddbb60ee67 --spec 'cypress/integration/validate-serp/setup-new-profile.spec.js'",
+    "testing-validate": "npx cypress run --spec 'cypress/integration/validate-serp/setup-new-profile.spec.js'",
+    "cypress:validate-serp": "node ./automate-task/validate-serp/validate-serp-checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.s3-world.com/Nut/cypressdockervalidate.git"
+  },
+  "author": {
+    "email": "mainglarcheryjung@gmail.com",
+    "name": "kong"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cypress": "^4.10.0",
+    "nodemailer": "^6.4.10",
+    "rxjs": "^6.6.0"
+  }
+}
