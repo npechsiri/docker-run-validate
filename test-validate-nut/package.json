@@ -20,7 +20,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "cypress": "^4.10.0",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "rxjs": "^6.6.0"
   }
 }
